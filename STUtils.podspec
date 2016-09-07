@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Util Methods: 1、About Text
-              2、About
+                     Util Methods: 1、About Text
+                                   2、About
+                     DESC
 
   s.homepage         = 'https://github.com/chinabrant/STUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,13 +31,13 @@ Util Methods: 1、About Text
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'STUtils/Classes/*'
+  s.source_files = 'STUtils/Classes/**/*'
   
   # s.resource_bundles = {
   #   'STUtils' => ['STUtils/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/*.h'
+  s.public_header_files = 'STUtils/Classes/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

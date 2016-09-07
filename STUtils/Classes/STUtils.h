@@ -32,4 +32,9 @@
  */
 + (CGFloat)textWidth:(NSString *)text limitHeight:(CGFloat)height fontSize:(int)fontSize;
 
+/**
+ * 计算时间撮
+ */
++ (NSString *)formatDate:(NSDate *)date;
+
 @end
