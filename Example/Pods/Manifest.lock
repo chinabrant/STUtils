@@ -1,0 +1,16 @@
+PODS:
+  - STUtils (0.1.0)
+
+DEPENDENCIES:
+  - STUtils (from `../`)
+
+EXTERNAL SOURCES:
+  STUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  STUtils: 2fb0f5f195a3668d1b23fbf9b61264bfab29be6d
+
+PODFILE CHECKSUM: 48c3d9b3d22ff9a655ba83d9a8dbaa157358202f
+
+COCOAPODS: 1.0.1

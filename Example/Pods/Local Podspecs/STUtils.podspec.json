@@ -1,0 +1,22 @@
+{
+  "name": "STUtils",
+  "version": "0.1.0",
+  "summary": "A short description of STUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/STUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "brant": "wushujun@stbl.cc"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/STUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "STUtils/Classes/**/*"
+}

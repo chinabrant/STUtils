@@ -1,0 +1,6 @@
+framework module STUtils {
+  umbrella header "STUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -21,6 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		61463E911D7FA947008BEF96 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 61463E8D1D7FA947008BEF96 /* .gitkeep */; };
+		61463E921D7FA947008BEF96 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 61463E8F1D7FA947008BEF96 /* .gitkeep */; };
+		61463E931D7FA947008BEF96 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 61463E901D7FA947008BEF96 /* ReplaceMe.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		ED8C58C66508185243A5B395 /* Pods_STUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A1C3FB1CE33BDE0C1F56E9 /* Pods_STUtils_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		60FABCF46E3EB9F58D45B04F /* Pods-STUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STUtils_Example/Pods-STUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		61463E8D1D7FA947008BEF96 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		61463E8F1D7FA947008BEF96 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		61463E901D7FA947008BEF96 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		61463E941D7FA97E008BEF96 /* STUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STUtils.h; sourceTree = "<group>"; };
+		61463E951D7FA97E008BEF96 /* STUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STUtils.m; sourceTree = "<group>"; };
 		7597914E31349A8300F7E42A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9865DD9272A24E1555D6D284 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -96,6 +104,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				61463E8B1D7FA946008BEF96 /* STUtils */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for STUtils */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -180,6 +189,35 @@
 				9865DD9272A24E1555D6D284 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		61463E8B1D7FA946008BEF96 /* STUtils */ = {
+			isa = PBXGroup;
+			children = (
+				61463E8C1D7FA946008BEF96 /* Assets */,
+				61463E8E1D7FA947008BEF96 /* Classes */,
+			);
+			name = STUtils;
+			path = ../STUtils;
+			sourceTree = "<group>";
+		};
+		61463E8C1D7FA946008BEF96 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				61463E8D1D7FA947008BEF96 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		61463E8E1D7FA947008BEF96 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				61463E8F1D7FA947008BEF96 /* .gitkeep */,
+				61463E901D7FA947008BEF96 /* ReplaceMe.m */,
+				61463E941D7FA97E008BEF96 /* STUtils.h */,
+				61463E951D7FA97E008BEF96 /* STUtils.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		820EFCF978A800EC807B7110 /* Pods */ = {
@@ -278,7 +316,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				61463E921D7FA947008BEF96 /* .gitkeep in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				61463E911D7FA947008BEF96 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61463E931D7FA947008BEF96 /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* STAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* STViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -467,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
